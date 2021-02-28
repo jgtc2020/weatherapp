@@ -1,0 +1,226 @@
+*{
+    scroll-behavior: smooth;
+  }
+  body::-webkit-scrollbar{
+  /* solo oculta su visualizacion */
+  display: none;
+}
+a:hover, a:visited, a:link, a:active{
+      color:none;
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  a:link:hover{
+    text-decoration: none;
+  }
+   button:focus{
+     outline:inherit !important;
+   }
+   input:focus{
+     outline:inherit !important;
+   }
+
+
+   .title-hero{
+     padding-top:130px;
+     padding-bottom:80px;
+     color:#373737;
+     font-weight:bolder;
+     font-family:'Poppins', sans-serif;
+   }
+
+   .title-card-weather{
+     font-size:16px;
+     font-family:'Poppins', sans-serif;
+     font-weight:bold;
+   }
+
+   .title-card-weather-of{
+     font-size:26px;
+     font-family:'Poppins', sans-serif;
+     font-weight:bold;
+     color:#373737;
+   }
+
+   .card{
+     margin-bottom:25px;
+     padding:20px;
+     border:none;
+     transition:.5s;
+     box-shadow:1px 10px 15px rgba(17,23,21,.15);
+     border-radius:10px;
+     background:#fff;
+   }
+
+   .card:hover{
+     transition:.5s;
+     transform:translateY(-7px);
+   }
+
+   .text{
+     font-family:'Poppins', sans-serif;
+     font-size:15px;
+     color:#373737;
+     line-height:1.45rem;
+   }
+
+   .btn-card-models-cars{
+  margin-top: 15px;
+  border-radius:60px;
+  border:none;
+  padding:5px 20px;
+  width:70%;
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(to left, #007aff, #7968ec);
+  color:#fff;
+  transition:.5s;
+  box-shadow:1px 10px 15px rgba(17,23,21,.1);
+}
+
+.icon-heart-btn-card{
+  display:inline-block;
+  float:right;
+  font-size:20px;
+  margin-top:22px;
+  transition:.5s;
+}
+
+.icon-heart-btn-card:hover{
+  color:red;
+  transition:.5s;
+}
+
+.btn-card-models-cars:hover{
+  background:#fff;
+  transition:.5s;
+  color:#000;
+}
+
+
+.container-weather-card-info{
+  width:100%;
+  height:100%;
+  background:rgba(17,23,21,.5);
+  visibility:hidden;
+  opacity:0;
+  transition:.5s;
+  z-index:25000;
+  position:fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition:.5s;
+}
+
+.active-container-weather-card-info{
+  width:100%;
+  height:100%;
+  background:rgba(17,23,21,.5);
+  visibility:visible;
+  opacity:1;
+  transition:.5s;
+  z-index:25000;
+  position:fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition:.5s;
+}
+
+.card-text-weather-info{
+  margin-bottom:25px;
+  border:none;
+  transition:.5s;
+  box-shadow:1px 10px 15px rgba(17,23,21,.15);
+  border-radius:10px;
+  background:#fff;
+}
+
+.title-card-weather-info{
+  font-size:20px;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+}
+
+.text-card-weather-info{
+  font-family:'Poppins', sans-serif;
+  font-size:15px;
+  color:#373737;
+  line-height:1.45rem;
+}
+
+.title-card-weather-info-wh{
+  font-size:36px;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  color:#373737;
+}
+
+.icon-btn-card-wh-info{
+  margin-left:10px;
+}
+
+.btn-card-wh-info{
+  margin-top: 15px;
+  border-radius:60px;
+  border:none;
+  padding:5px 25px;
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(to left, #007aff, #7968ec);
+  color:#fff;
+  transition:.5s;
+  box-shadow:1px 10px 15px rgba(17,23,21,.1);
+}
+
+.btn-card-wh-info:hover{
+  background:#fff;
+  transition:.5s;
+  color:#000;
+}
+
+.banner-card-wh-info{
+  background:linear-gradient(to left, #007aff, #7968ec);
+  border-radius:10px 10px 0px 0px;
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  padding:13.5px 10px;
+}
+
+.title-banner-wh-card-info, .img-logo-card-wh{
+  font-size:20px;
+  display:inline-block;
+  margin-right:10px;
+  margin-bottom:0px;
+}
+
+.container-text-card{
+  padding:15px 29px 29px;
+}
+
+.icon-close-card-wh-info{
+  float:right;
+  margin-top:5px;
+  margin-right:5px;
+  cursor:pointer;
+}
+
+@media screen and (min-width:0px) and (max-width:992px){
+  .btn-card-models-cars{
+ margin-top: 15px;
+ border-radius:60px;
+ border:none;
+ padding:5px 20px;
+ width:50%;
+ font-family:'Poppins', sans-serif;
+ background:linear-gradient(to left, #007aff, #7968ec);
+ color:#fff;
+ transition:.5s;
+ box-shadow:1px 10px 15px rgba(17,23,21,.1);
+}
+
+  .card-text-weather-info{
+    margin:25px;
+  }
+
+}

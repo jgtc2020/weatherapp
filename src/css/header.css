@@ -1,0 +1,134 @@
+.header-ego-cars-model{
+  position:fixed;
+  width:100%;
+  background:#fff;
+  z-index:15000 !important;
+  padding:15px 20px;
+  border-bottom:1px solid #d8d8d8;
+}
+
+.title-header-logo{
+  margin:0px 9px !important;
+}
+
+.img-logo-header{
+  margin:0px 20px 0px 0px;
+  font-size:26px;
+}
+
+.header-ego-cars-model h1{
+  display:inline-block;
+  margin:0px 30px;
+  font-size:16px;
+  color:#191919;
+  font-family:'Poppins', sans-serif;
+  transition:.5s;
+}
+
+.title-model-header{
+  display:inline-block;
+  margin:0px 20px;
+  font-size:16px;
+  color:#191919;
+  font-family:'Poppins', sans-serif;
+  color:#000;
+  transition:.5s;
+}
+
+.general-items-header{
+  display:inline-block;
+}
+
+
+.general-nav-menu-header{
+  display:inline-block;
+  float: right;
+  margin:5px 0px;
+}
+
+.general-aside-menu-ds{
+  position:fixed;
+  right:0;
+  z-index:16000;
+  height:100vh;
+  background:#fff;
+  opacity:0;
+  visibility:hidden;
+  transform:translateX(100%);
+  transition:.5s;
+  box-shadow:1px 15px 25px rgba(17,23,21,.2);
+}
+
+.active-header{
+  position:fixed;
+  right:0;
+  z-index:16000;
+  height:100vh;
+  background:#fff;
+  opacity:1;
+  visibility:visible;
+  transform:translateX(0%);
+  transition:.5s;
+  box-shadow:1px 15px 25px rgba(17,23,21,.2);
+}
+
+.general-container-aside-content{
+  padding:55px;
+  font-family:'Poppins', sans-serif;
+}
+
+.close-times-title{
+  font-size:20px;
+  color:#373737;
+  cursor:pointer;
+  transition:.5s;
+  margin-bottom:20px;
+}
+
+.close-times-title:hover, .icon-close-aside-menu:hover{
+  color:#007aff;
+  transition:.5s;
+}
+
+.close-times-title:hover .icon-close-aside-menu{
+  color:#007aff;
+  transition:.5s;
+}
+
+.title-aside-menu{
+  font-size:20px;
+  color:#373737;
+  margin-bottom:20px !important;
+  display:block;
+}
+
+.icon-close-aside-menu{
+  margin-right:10px;
+  color:#373737;
+}
+
+.active{
+  color:#007aff;
+  border-bottom:1px solid #007aff;
+}
+
+.active-aside{
+  color:#007aff;
+}
+
+
+@media screen and (min-width:0px) and (max-width:992px){
+  .title-model-header{
+    display:none !important;
+  }
+
+  .general-aside-menu-ds{
+    width:100%;
+  }
+  .active-header{
+    width:100%;
+  }
+  .title-header-logo{
+    margin:0px !important;
+  }
+}

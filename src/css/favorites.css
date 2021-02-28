@@ -1,0 +1,44 @@
+.general-container-title-favorites-null{
+  width:100%;
+  height:100vh;
+  background:#eee;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.title-container-favorites-null{
+  font-size:30px;
+  font-family:'Poppins', sans-serif;
+  color:#373737;
+}
+
+.img-empty-container-favorites{
+  width:20%;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  from {
+    transform: scale(.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+@media screen and (min-width:0px) and (max-width:992px){
+  .img-empty-container-favorites{
+    width:60%;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}

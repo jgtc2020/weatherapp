@@ -1,0 +1,88 @@
+.banner-weather-about{
+  width:100%;
+  height:300px;
+  background:linear-gradient(to left, #007aff, #7968ec);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition:.5s;
+}
+
+.title-about-wh{
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  margin-bottom:0px !important;
+  margin-top:80px;
+  display: inline-block;
+}
+
+
+.icon-banner-wh-about{
+  display: inline-block;
+  float:right;
+  color:#fff;
+  font-size:170px;
+  margin-right:35px;
+  margin-top:20px;
+}
+
+@keyframes bg
+{
+    0%
+    {
+      background-position-x: 0;
+    }
+
+    100%
+    {
+      background-position-x: 650px;
+    }
+}
+
+.container-text-weather-about{
+  background:#fff;
+  padding:35px;
+  box-shadow:1px 10px 15px rgba(17,23,21,.15);
+  border-radius:10px;
+  margin-top:-55px;
+  max-width:800px;
+}
+
+
+.text-weather-about{
+  font-family:'Poppins', sans-serif;
+  font-size:16px;
+  line-height:1.9rem;
+  color:#373737;
+}
+
+.container-images-weather-about{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.general-container-image-col-7, .general-container-image-col-5{
+  width:100%;
+  height:350px;
+  overflow:hidden;
+}
+
+.img-col-7-wh-about{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:.5s;
+}
+
+.img-col-7-wh-about:hover{
+  transform:scale(1.1) rotate(-3deg);
+  transition:.5s;
+}
+
+.col-xl-7{
+  padding-left:0px !important;
+}
+
+.col-xl-5{
+  padding-right:0px !important;
+}
